@@ -15,9 +15,9 @@ stage('SonarQube Analysis') {
         -D sonar.projectKey=my-app-1.0 \
         -D sonar.sourceEncoding=UTF-8 \
         -D sonar.language=java \
-        -D sonar.sources=jenkins-sonarqube/project/src/main \
-        -D sonar.tests=jenkins-sonarqube/project/src/test \
-        -D sonar.host.url=http://3.143.217.209"""
+        -D sonar.sources=project/src/main \
+        -D sonar.tests=project/src/test \
+        -D sonar.host.url=http://3.143.173.19:9000"""
         }
 }
 }
